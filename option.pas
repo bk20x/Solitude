@@ -7,7 +7,7 @@ uses Typinfo, SysUtils;
 
 type
     TOption<T> = record
-        strict private
+        private
             Value  : T;
             Exists : Boolean;
         public
