@@ -44,7 +44,6 @@ end;
 class function TOption<T>.None: TOption<T>;
 begin
     Result := Default(TOption<T>);
-    Result.Exists := False;
 end;
 
 function TOption<T>.IsSome: Boolean;
